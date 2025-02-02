@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family:montserrat; sans-serif;
+    background-color: rgb(14, 59, 59);
+}
+.container{
+    margin: 100px auto;
+    background-color: rgb(24, 196, 173);
+    color: #f8f8f3;
+    border-radius: 5px;
+    width: 360px;
+    text-align: center;
+    box-shadow: 0 10px 20px -10px rgb(0,0,0.75);
+}
+.cover-photo{
+    background: url(background.jpg);
+    height: 160px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.profile{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    margin: 93px 0 0 -195px;
+    border: 1px solid #070808;
+    padding: 5px;
+    background: #2187b3;
+}
+.profile-name{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 27px 0 0 120px;
+}
+.about{
+    margin-top: 35px;
+    line-height: 21px;
+} 
+button{
+    margin:10px 0 40px 0;
+
+}
+.msg-btn , .follow-btn{
+    background-color: #189bd3;
+    border: 1px solid #141314;
+    padding: 10px 25px;
+    color: #01040c;
+    border-radius: 3px;
+    font-family: montserrat,sans-sarif;
+    cursor: pointer;
+}
+.follow-btn{
+    margin-left: 10px;
+    background: transparent;
+    color: #010c29;
+
+}
+.follow-btn:hover{
+    color: #000405;
+    background-color: #189bd3;
+    transition: 1s;
+}
+.container i{
+    padding-left: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    cursor:pointer;
+
+}
+.container i:hover{
+    color: #189bd3;
+
+}
+    
